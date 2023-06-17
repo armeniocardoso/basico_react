@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+.principal {
+  width: 900px;
+  height: 640px;
+  padding: 10px;
+  display: flexbox;
+  flex-wrap: wrap;
+  margin: auto; 
+}
+
+.ultimasVagas,
+.novaConta,
+.publicarVaga {
+  width: 640px;
+  height: 100%;
+  float: left;
+  border: 2px solid #ddd;
+}
+
+.login {
+  width: 250px;
+  height: 130px;
+  float: right;
+  text-align: center;
+  border: 2px solid #ddd;
+}
+
+.criarConta {
+  width: 250px;
+  height: calc(100% - 145px);
+  float: right;
+  text-align: center;
+  margin-top: 10px;
+  border: 2px solid #ddd;
+}
+
+
